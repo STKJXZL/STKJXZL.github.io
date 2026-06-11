@@ -1,0 +1,102 @@
+favicon: /img/favicon.png
+# Change to your profile picture
+avatar: /img/avatar.jpg
+# if author sets in hexo_config, this string doesn't work
+author: 'He Lei'
+author_bio: 'Associate Professor of School of Artificial Intelligence, AUST'
+
+since: 2024
+
+# Top Menu 顶部菜单
+# #title 为页内跳转，单页模式
+# 可以选择外链或其他页面
+menu:
+  About: /About
+  Achievement: /Achievement
+  STK Lab: /STK Lab
+  Teaching: /Teaching
+  Graduate: /Graduate
+  Journal: /Journal
+  Activity: /Activity
+
+
+#  About: /
+#  Blog: /
+
+# flink picture will load if avator link calls on error
+loading_bg:
+  flink: /img/profile.png
+
+# Social Links; 社交链接，不需要的链接直接注释掉
+# 可以调整显示顺序
+# 图标调用 font-awesome 4.7
+social:
+  enable: false
+social_links:
+  fab fa-twitter: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0
+  fab fa-facebook-square: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0
+  fab fa-github: https://github.com/STKJXZL/STKJXZL.github.io
+  fab fa-stack-overflow: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0
+  fab fa-linkedin: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0
+  fab fa-weibo: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0
+  fab fa-weixin: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0
+  fab fa-qq: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0
+  fas fa-envelope: / stkjxzl@aust.edu.cn#E-mail
+  fas fa-rss: /  #rss
+
+# Additional social_links，额外添加自定义链接，可显示链接名称
+# name: url || icon_name
+e_social:
+  enable: true
+e_social_links:
+  
+  Chatgpt: https://chatgpt.com/ || fab fa-Researchgate
+  Doubao: https://www.doubao.com/chat/ || fab fa-Researchgate
+  Deepseek: https://www.deepseek.com/ || fab fa-Researchgate
+  Github: https://github.com/auststk/auststk.github.io/issues  || fab fa-Researchgate
+  Researchgate: https://www.researchgate.net/profile/Lei-He-71 || fab fa-Researchgate
+  Google Scholar: https://scholar.google.com/citations?user=df_sy2AAAAAJ&hl=zh-CN || fab fa-Google Scholar
+  Web of science: https://www.webofscience.com/wos/author/record/GQR-1547-2022 || fas fa-Web of science
+  Bilibili: https://space.bilibili.com/403730649?spm_id_from=333.1007.0.0 || fas fa-Web of science
+  Sci-hub: https://sci-hub.org.cn/ || fas fa-Web of science
+  Patenthub: https://www.patenthub.cn/ || fas fa-Web of science
+  ELSEVIER: https://www.engineeringvillage.com/search/quick.url || fas fa-Web of science
+  CNKI: https://www.cnki.net/ || fas fa-Web of science
+  IEEE Explore: https://ieeexplore.ieee.org/Xplore/guesthome.jsp;jsessionid=8A06B21BB6CD5C23E0AB8BEE11A50A3A || fas fa-Web of science
+  ACS: https://pubs.acs.org/ || fas fa-Web of science
+  PQDT: https://www.pqdtcn.com/ || fas fa-Web of science
+  FPO: https://www.freepatentsonline.com/ || fas fa-Web of science
+  EPO: https://www.epo.org/en || fas fa-Web of science
+  Letpub: https://www.letpub.com.cn/index.php?page=journalapp || fas fa-Web of science
+  CNKI_JOUNALS: https://navi.cnki.net/knavi/journals/index?uniplatform=NZKPT || fas fa-Web of science
+  Google: https://www.google.com.hk/ || fas fa-Web of science
+  Douyin: https://www.douyin.com/ || fas fa-Web of science
+  Wallhaven: https://wallhaven.cc/ || fas fa-Web of science
+  Tiktok: https://www.tiktok.com/foryou || fas fa-Web of science
+  AUST: https://www.aust.edu.cn/ || fas fa-Web of science
+  POSTDOCTOR: https://www.chinapostdoctor.org.cn/home || fas fa-Web of science
+  NSFC: https://www.nsfc.gov.cn/ || fas fa-Web of science
+
+# CV download link
+cv_dl:
+  enable: false
+  dir: /attaches/CV.pdf
+  description: My Detail CV.
+
+# Box-shadow
+# display box-shadow on page or not
+box_shadow:
+  enable: true
+
+# CDN
+# 根据需要自行添加js/css
+# 自定义css可以直接写在user.styl中
+CDN_USE:
+  css:
+    - /css/index.css
+#    - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
+    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css # fontawesome 5
+  js:
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
+    - /js/main.js
